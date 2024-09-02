@@ -1,7 +1,7 @@
 # Git Assignment - <SidraOB>
 What is an issue?
 
-Github issue is the powerfull way to keeb track of different features or changings in code, For example its project management system for software developers.
+Github issue is the powerfull way to keeb track of different features, tasks, bugs, feature request or changings in code. Its a way to organize and manage project work.
 
 What is a pull request?
 
@@ -9,21 +9,22 @@ It is a feature of github which allows developers to propose changes to code. Wh
 
 Describe the steps to open a pull request?
 
-- click on the pull request tab
--click on New pull request button
--Ensure that the base repository is the original repository and base branch is main 
+-Go to the original repository on Github.
+-There will be a prompt saying "compare & pull request" next to the recently pushed branch. Click on this button.
+-Choose the appropriate base and main branches
+-Usually the base repository is the original repository and base branch is main 
 -compare repository should be the forked repository and compare branch should be that we just pushed
 -Fill out the details about why we did the changes and add relevant information
--we can also request reviewers and finally press "create pull request" button
+-we can also request reviewers (if necessary) and click "create pull request" button
 
 Describe the steps to add a collaborator to a repository (share write permissions)
 
--Open the repository where you want to add a collaborator
--Click on the "Settings" tab
--click on the Collaborators under access menu
+-Login to Github and navigate to your repository
+-Go to repository settings
+-Click on the Collaborators under manage access menu
 -To invite the people, click on "add people" under manage access
--type the github usename or email of the person you want to add as collaborator
--set the permission to "write" and send the invitation
+-Type the github usename or email of the person you want to add as collaborator
+-Set the permission to "write" and send the invitation
 
 What is the difference between git and GitHub?
 
@@ -40,4 +41,4 @@ Main branch is the default branch of a repository. The code in main branch remai
 
 Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
 
-While directly pussing to main branh is possible but we should use branching strategy. It promotes better practices in terms of code stability, collaboration, testing, and tracking changes.
+While directly pussing to main branch is possible but it is generally not a good practice to push changes directly into the main branch. We should use branching strategy. It promotes better practices in terms of code stability, collaboration, testing, and tracking changes.
